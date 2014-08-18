@@ -1,4 +1,4 @@
-[TOC]
+
 
 Background
 ---
@@ -219,7 +219,7 @@ Code Base
 [https://github.corp.ebay.com/DevExTech/kaas][17]
 
 
-  [1]: /docs/images/birdview.png
+  [1]: docs/images/birdview.png
   [2]: http://ebayci.qa.ebay.com/productbundlesserv-ci-001/AssemblerService/viewDeployLog?jobName=productbundlesserv-ci-001&buildNo=5
   [3]: /281299605/submit_a_problem.png?version=2&modificationDate=1407739355000&api=v2&effects=border-simple,shadow-kn
   [4]: /281299605/problem_model.png?version=1&modificationDate=1407739202000&api=v2&effects=border-simple,blur-border,tape
