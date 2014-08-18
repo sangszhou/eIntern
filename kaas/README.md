@@ -221,14 +221,14 @@ Code Base
 
   [1]: docs/images/birdview.png
   [2]: http://ebayci.qa.ebay.com/productbundlesserv-ci-001/AssemblerService/viewDeployLog?jobName=productbundlesserv-ci-001&buildNo=5
-  [3]: /281299605/submit_a_problem.png?version=2&modificationDate=1407739355000&api=v2&effects=border-simple,shadow-kn
-  [4]: /281299605/problem_model.png?version=1&modificationDate=1407739202000&api=v2&effects=border-simple,blur-border,tape
-  [5]: /281299605/find_solution.png?version=1&modificationDate=1407739584000&api=v2&effects=border-simple,shadow-kn
-  [6]: /281299605/solution_model.png?version=2&modificationDate=1407740070000&api=v2&effects=border-simple,blur-border,tape
-  [7]: /281299605/fetch_solutions.png?version=1&modificationDate=1407740224000&api=v2&effects=border-simple,shadow-kn
-  [8]: /281299605/kaas_api.png?version=1&modificationDate=1407740320000&api=v2&effects=border-simple,shadow-kn
-  [9]: /281299605/mockup.png?version=3&modificationDate=1408084681000&api=v2
-  [10]: /281299605/problem_queue.png?version=2&modificationDate=1408082605000&api=v2&effects=border-simple,shadow-kn
+  [3]: docs/images/submit_a_problem.png
+  [4]: docs/images/problem_model.png
+  [5]: docs/images/find_solution.png
+  [6]: docs/images/solution_model.png
+  [7]: docs/images/fetch_solutions.png
+  [8]: docs/images/kaas_api.png
+  [9]: docs/images/mockup.png
+  [10]: docs/images/problem_queue.png
   [11]: https://jersey.java.net/
   [12]: http://quartz-scheduler.org/
   [13]: http://redis.io/
