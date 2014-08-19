@@ -46,7 +46,7 @@ For this [url][2], will produce a
 Unique ID: 277fc287593875b2714c3365f64bab26
 
 
-![enter image description here][3 =200*100] ![enter image description here][4]
+![enter image description here][3 =200x100] ![enter image description here][4]
 
 A Solution Finder Batch job is run scheduled to find solutions for problems that stored in redis DB that don't have any solutions yet.
 
