@@ -57,7 +57,9 @@ It loads the find workers (WikiFinders, AHFinders, etc.) to parallel find the so
 The solution has a score attached with it, so we can sort the solutions by the the score desc.
 A on-demand solution finder might be considered to implement as well through RESTful API.
 
-![enter image description here][5] ![enter image description here][6]
+![enter image description here][5] 
+
+![enter image description here][6]
 
 From the client side, the Assembler Log View page will call KaaS RESTful API to fetch the solutions.
 
