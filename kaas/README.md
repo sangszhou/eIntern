@@ -126,7 +126,7 @@ context SET // to store all the known applications, e.g Assembly, Sonar etc.
 API
 ---
 ###Inbound API
-####Problem POST
+#####Problem POST
 ```java
 http://kaas/problem/post
 Content-Type : application/json
@@ -153,7 +153,7 @@ public void post(Problem problem) {
 }
 ```
 
-####Solution POST
+#####Solution POST
 ```java
 
 http://kaas/solution/post
@@ -176,7 +176,7 @@ RESPONSE
 ```
 
 ###Outbound API
-####AnswerHub API
+#####AnswerHub API
 ```java
 API URL http://answerhub.corp.ebay.com/services/v2/question.json?q="KEY"
 Method GET
