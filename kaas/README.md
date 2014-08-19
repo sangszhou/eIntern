@@ -14,7 +14,7 @@ Birdview
 ---
 ![enter image description here][1]
 
-Word Flow
+Work Flow
 ---
 A typical problem should contain four basic elements, 1. context, 2. raw data 3. sourceurl, 4. timestamp
 
@@ -33,6 +33,7 @@ Use Case
 Here we will take Assembler as an example.
  
  
+ 
 When user get a failed assembly job, assembly jenkins plugin will invoke KaaS RESTful service to submit a problem, KaaS service will store the problem into Redis DB.
 
 The problem is submit to a Problem Queue, KaaS will read the problems from Queue to match the solutions.
@@ -40,12 +41,12 @@ Another way to fill up the problem tank is to use a back-end batch job to load t
 
 The Assembler Log URL will be used to produce a MD5 key as a unique id in redis.
 For example:  
-For this url, [http://ebayci.qa.ebay.com/productbundlesserv-ci-001/AssemblerService/viewDeployLog?jobName=productbundlesserv-ci-001&buildNo=5][2], will produce a
+For this [url][2], will produce a
 
 Unique ID: 277fc287593875b2714c3365f64bab26
 
 
-![enter image description here][3] ![enter image description here][4]
+![enter image description here][3 =200*100] ![enter image description here][4]
 
 A Solution Finder Batch job is run scheduled to find solutions for problems that stored in redis DB that don't have any solutions yet.
 
@@ -61,7 +62,9 @@ From the client side, the Assembler Log View page will call KaaS RESTful API to 
 And this notes will be used as a solution to this problem stored in redis DB.
 
 ![enter image description here][7]
+
 So basically the KaaS provide three major RESTful API
+
 ![enter image description here][8]
 
 Here is the mock up Assembler Log View page
