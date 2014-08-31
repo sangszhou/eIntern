@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    classpath:org/springframework/beans/factory/xml/spring-beans-3.0.xsd ">
+
+   <!-- Initialization for data source -->
+   <bean id="dataSource" 
+      class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+      <property name="driverClassName" value="oracle.jdbc.OracleDriver"/>
+      <property name="url" value=" jdbc:oracle:thin:@unitdb.vip.qa.ebay.com:1521:UNITDB"/>
+      <property name="username" value="usagedb"/>
+      <property name="password" value="usagedb"/>
+   </bean>
+
+   <!-- Definition for EntryJDBCTemplate bean -->
+   <bean id="EntryJDBCTemplate" 
+      class="com.entry.model.EntryJDBCTemplate">
+      <property name="dataSource"  ref="dataSource" />    
+   </bean>
+      
+</beans>

@@ -1,0 +1,42 @@
+div.left-column {
+	margin:2em;
+	margin-left:3em;
+	width:40%;
+	height:100%;
+	float:left;
+}
+
+div.right-column {
+	margin:2em;
+	margin-left:45%;
+	width:45%;
+}
+
+div.table {
+	min-height:60%;
+}
+
+div.log {
+	min-height:40%;
+}
+
+div.rule {
+	max-height:100em;
+}
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+tr div.expand {
+  width: 20px;
+  height: 20px;
+  background-image: url('http://www.datatables.net/release-datatables/examples/examples_support/details_open.png');
+}
+
+tr div.open {
+  background-image: url('http://www.datatables.net/release-datatables/examples/examples_support/details_close.png');  
+}
